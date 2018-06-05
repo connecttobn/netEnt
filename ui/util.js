@@ -27,11 +27,11 @@ let successHanlder = response => {
   }
   //handle bonus part
   let bonusDiv = document.getElementById("bonus").classList;
-  if (response.bonus === true) {
+  if (res.bonus === true) {
     if(bonusDiv.contains("hide"))
         bonusDiv.remove("hide");
-    //make new call
-    handlePlay();
+    //make new call after 2.5 seconds
+    setTimeout(handlePlay, 2500);
   } else {
     if (!bonusDiv.contains("hide")) bonusDiv.add("hide");
   }
