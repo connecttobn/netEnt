@@ -45,6 +45,6 @@ let handlePlay = () => {
       successHanlder(this.response);
     }
   };
-  xhttp.open("GET", "/play?id=" + Math.random(), true);
+  xhttp.open("POST", "/play?id=" + Math.random(), true);
   xhttp.send();
 };
