@@ -1,4 +1,5 @@
-**Fruit machine/Slot Machine** game build using using **NodeJS**
+**Fruit machine/Slot Machine** game build using using **NodeJS** 
+[![Build Status](https://travis-ci.org/connecttobn/netEnt.svg?branch=master)](https://travis-ci.org/connecttobn/netEnt)
 
 Game: https://en.wikipedia.org/wiki/Slot_machine
 
